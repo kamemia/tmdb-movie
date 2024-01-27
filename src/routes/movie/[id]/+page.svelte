@@ -3,7 +3,6 @@
 	import type { PageData } from './$types';
 	import MdiAlarmClock from '~icons/mdi/alarm-clock';
 	import MdiLink from '~icons/mdi/link';
-
 	export let data: PageData;
 </script>
 
