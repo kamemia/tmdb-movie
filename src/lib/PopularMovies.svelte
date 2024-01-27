@@ -12,7 +12,7 @@
 		<div class="absolute flex flex-col justify-between  w-full h-full z-20 text-white">
 			
 			<div class="p-6 flex flex-col space-y-1">
-				<div class="text-6xl font-secondary font-bold group-hover:text-6xl transition-all">
+				<div class="text-6xl font-secondary font-bold group-hover:text-6xl transition-all ">
 					{movie.title}
 				</div>
 				
@@ -23,7 +23,7 @@
 			class="bg-gradient-to-tr from-dark to-transparent mix-blend-multiply absolute z-10 w-full h-full transition-all group-hover:opacity-50"
 		/>
 	<img
-		  class="object-cover object-center bg-light w-full h-80 sm:h-[32rem] group-hover:scale-105 transition-all duration-200"
+		  class="object-cover object-center bg-light w-full h-80 sm:h-[32rem] group-hover:scale-105 transition-all duration-200 rounded-[20px]"
 		  src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
 		  alt={movie.title}
 		/>
@@ -34,7 +34,7 @@
 
 
 
-<h3 class="text-lg mb-3">Upcoming</h3>
+<h3 class="text-lg mb-3 font-bold px-2 pt-4">Discover</h3>
 
 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
 	{#each movies as movie}
