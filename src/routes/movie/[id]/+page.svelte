@@ -8,7 +8,7 @@
 
 <div class="sm:flex items-top sm:space-x-4 z-20 bg-dark py-6 px-2 sm:px-0 text-black">
 	<img
-		class="h-48 sm:h-56 mt-1"
+		class="h-full sm:h-56 mt-1"
 		src="https://image.tmdb.org/t/p/w300{data.poster_path}"
 		alt="poster"
 		in:fly={{ y: 50, duration: 500, delay: 500 }}
